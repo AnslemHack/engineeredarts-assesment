@@ -1,0 +1,1 @@
+{"version":3,"file":"messagePayload.d.ts","sourceRoot":"","sources":["../../src/typeguard/messagePayload.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,CAAC,EAAE,MAAM,KAAK,CAAA;AAEvB,eAAO,MAAM,oBAAoB;;;;;;;;;;;;;;;;iBAM/B,CAAA;AAEF,MAAM,MAAM,cAAc,GAAG,CAAC,CAAC,KAAK,CAAC,OAAO,oBAAoB,CAAC,CAAA;AAEjE,wBAAgB,qBAAqB,CAAC,KAAK,EAAE,CAAC,CAAC,QAAQ,GAAG,MAAM,CAK/D"}

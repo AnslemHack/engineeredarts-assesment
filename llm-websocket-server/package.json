@@ -1,0 +1,33 @@
+{
+  "name": "llm-websocket-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "test": "NODE_OPTIONS='--import tsx' mocha 'test/**/*.test.ts'",
+    "test:watch": "NODE_OPTIONS='--import tsx' mocha --watch 'test/**/*.test.ts'"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/chai": "^5.1.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^25.0.9",
+    "@types/ws": "^8.18.1",
+    "chai": "^5.3.3",
+    "mocha": "^10.8.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^6.16.0",
+    "uuid": "^13.0.0",
+    "ws": "^8.19.0",
+    "zod": "^4.3.5"
+  }
+}
