@@ -77,7 +77,7 @@ The test suite includes:
 - **Validation Tests**: Message payload schema validation
 - **Service Tests**: Critical workflow tests for the voice pipeline
 
-All tests should pass. Current test count: 13 tests.
+All tests should pass.
 
 ## API Documentation
 
@@ -146,14 +146,6 @@ src/
 - **VoicePipelineService**: Orchestrates the LLM → TTS flow with sentence-level processing
 - **VoiceSocketManager**: Manages WebSocket connections and message routing
 
-### Features
-
-- **Streaming**: LLM responses are streamed for low latency
-- **Sentence-Level Processing**: Audio is generated in complete sentences for natural speech
-- **Multiple Connections**: Supports concurrent WebSocket connections
-- **Input Validation**: Uses Zod for type-safe message validation
-- **Error Handling**: Comprehensive error logging and handling
-- **Abort Support**: Supports cancellation of in-flight requests
 
 ## Development
 
@@ -179,20 +171,6 @@ llm-websocket-server/
   └── .env           # Environment variables (create this)
 ```
 
-## Dependencies
-
-### Production Dependencies
-- `openai`: Official OpenAI SDK
-- `ws`: WebSocket library for Node.js
-- `zod`: Schema validation
-- `dotenv`: Environment variable management
-- `uuid`: Unique identifier generation
-
-### Development Dependencies
-- `typescript`: TypeScript compiler
-- `tsx`: TypeScript execution for development
-- `mocha`: Testing framework
-- `chai`: Assertion library
 
 ## Troubleshooting
 
